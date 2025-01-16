@@ -30,7 +30,7 @@ public class MaquinaCafe {
     // creando constructor global VersionFULL
 
     public MaquinaCafe(double monedero, int depositoCafe, int depositoLeche, int depositoVasos) {
-        this.monedero = FONDO_DE_CAJA;
+        this.monedero = monedero;
         this.depositoCafe = depositoCafe;
         this.depositoLeche = depositoLeche;
         this.depositoVasos = depositoVasos;
@@ -43,28 +43,41 @@ public class MaquinaCafe {
     //******************************************************************************* FIN CONSTRUCTORES
 
 
+    public boolean servirCafeSolo(double cantidad) {
+        //primero compobaremos que maquina tenga los recursos disponibles para la elaboración del producto
 
+        if (depositoCafe > 0 && depositoLeche > 0 && depositoVasos > 0) {
+            if (cantidad >= CAFE_SOLO) {
+                depositoCafe--;
+                depositoLeche--;
+                depositoVasos--;
+                monedero += CAFE_SOLO;  // Asegúrate de agregar un punto y coma aquí
 
-
-
-
-
-
-
-    //m() funcion para actulizar monedero
-
-/*
-    public double ingresoMonedero(double cantidad) {
-
-
-        if (monedero > cantidad) {
-            double devolver = cantidad - CAFE_SOLO;
-            System.out.println("Se devuelve: " + devolver + "€");
-        } else if (monedero < cantidad) {
-            System.out.println("Saldo insuficiente para devolver ");
+                double devolucion = cantidad - CAFE_SOLO;
+                if (devolucion > 0) {
+                    System.out.printf("Recoja su cambio: %.2f€\n", devolucion);
+                }
+                System.out.println("Su café solo está listo.");
+                return true;  // Café servido correctamente
+            } else {
+                System.out.println("No tiene suficiente dinero para un café solo.");
+                return false;  // No tiene suficiente dinero
+            }
+        } else {
+            System.out.println("La máquina no tiene los recursos disponibles para elaborar el producto.");
+            return false;  // No hay suficientes recursos
         }
-        return monedero += cantidad - CAFE_SOLO;
     }
 
-*/
+    public void mostrarRecursos() {
+        System.out.println("Estado actual de la máquina:");
+        System.out.printf("Café: %d\n", depositoCafe);
+        System.out.printf("Leche: %d\n", depositoLeche);
+        System.out.printf("Vasos: %d\n", depositoVasos);
+        System.out.printf("Monedero: %.2f€\n", monedero);
+    }
+
+
 }
+
+

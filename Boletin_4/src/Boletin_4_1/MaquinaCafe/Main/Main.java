@@ -13,14 +13,13 @@ public class Main {
         MaquinaCafe coffeAndTe = new MaquinaCafe();
 
 
-
 //*******************************************************************************************************
 
         // Creando un menu para el usuario
         Scanner sc = new Scanner(System.in);
-        boolean continuar = true;
+        boolean continuar = true;  // Variable que controlará el bucle
 
-        while (true) {
+        while (continuar) {
 
             String[] menuCafetera = {
                     "\n",
@@ -42,33 +41,35 @@ public class Main {
             switch (opcion) {
                 case 1 -> {
                     System.out.println("Ha elegido café solo");
-                    System.out.println("Ingrese el dinero");
+                    System.out.print("Ingrese el dinero → ");
                     double cantidad = sc.nextDouble();
 
                     //Mi lógica responde Primero debo asegurarme de que la máquina cuenta con todos los "ingredientes" disponibles
 
 
-
-                    coffeAndTe.ingresoMonedero(cantidad);
+                    coffeAndTe.servirCafeSolo(cantidad);
                     System.out.println("Ha comprado un -BLack-Coffe -");
                 }
                 case 2 -> {
                     System.out.println("Ha elegido solo leche");
                 }
-                case 3-> {
+                case 3 -> {
                     System.out.println("Ha elegido cafe con leche");
                 }
                 case 4 -> {
                     System.out.println("Informe de depósitos");
+                    coffeAndTe.mostrarRecursos();
                 }
                 case 5 -> {
                     System.out.println("... apagando máquina");
-                    break;
+                     continuar = false;
+
+                }
+                default -> {
+                    System.out.println("Opción inválida, por favor elija una opción →  [1 - 5]");
                 }
 
             }
-            continuar = false;
-
 
         } // final WHILE
 
