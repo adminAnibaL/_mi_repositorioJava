@@ -49,7 +49,6 @@ public class MaquinaCafe {
         if (depositoCafe > 0 && depositoLeche > 0 && depositoVasos > 0) {
             if (cantidad >= CAFE_SOLO) {
                 depositoCafe--;
-                depositoLeche--;
                 depositoVasos--;
                 monedero += CAFE_SOLO;  // Asegúrate de agregar un punto y coma aquí
 
