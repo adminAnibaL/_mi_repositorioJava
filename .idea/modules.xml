@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Gym/Gym.iml" filepath="$PROJECT_DIR$/Gym/Gym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReservaCine/ReservaCine.iml" filepath="$PROJECT_DIR$/ReservaCine/ReservaCine.iml" />
       <module fileurl="file://$PROJECT_DIR$/_home_mi_repositorio_Java.iml" filepath="$PROJECT_DIR$/_home_mi_repositorio_Java.iml" />
     </modules>
   </component>

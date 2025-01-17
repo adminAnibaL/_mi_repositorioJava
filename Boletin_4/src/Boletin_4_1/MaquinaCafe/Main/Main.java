@@ -1,6 +1,7 @@
 package Boletin_4_1.MaquinaCafe.Main;
 
 import Boletin_4_1.MaquinaCafe.Class.MaquinaCafe;
+import Boletin_4_1.MaquinaCafe.MiEntradaSalida.MiEntradaSalida;
 
 import java.util.Scanner;
 
@@ -41,8 +42,9 @@ public class Main {
             switch (opcion) {
                 case 1 -> {
                     System.out.println("Ha elegido café solo");
-                    System.out.print("Ingrese el dinero → ");
-                    double cantidad = sc.nextDouble();
+                    //System.out.print("Ingrese el dinero → ");
+
+                    double cantidad = MiEntradaSalida.solicitarDoublePositivo("Ingres el money → ");
 
                     //Mi lógica responde Primero debo asegurarme de que la máquina cuenta con todos los "ingredientes" disponibles
 
