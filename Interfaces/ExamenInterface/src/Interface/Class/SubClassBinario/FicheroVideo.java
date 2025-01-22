@@ -12,7 +12,5 @@ public class FicheroVideo extends FicheroBinario {
         super(nombre, medidaTam, fechaCreacion);
     }
 
-    public FicheroVideo(String nombre, double medidaTam, LocalDate fechaCreacion, String[] bytes) {
-        super(nombre, medidaTam, fechaCreacion, bytes);
-    }
+
 }

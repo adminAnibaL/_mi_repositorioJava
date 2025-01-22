@@ -12,7 +12,5 @@ public class FicheroEjecutable extends FicheroBinario {
         super(nombre, medidaTam, fechaCreacion);
     }
 
-    public FicheroEjecutable(String nombre, double medidaTam, LocalDate fechaCreacion, String[] bytes) {
-        super(nombre, medidaTam, fechaCreacion, bytes);
-    }
+
 }

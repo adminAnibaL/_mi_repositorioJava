@@ -9,10 +9,7 @@ public abstract class FicheroBinario extends Fichero {
         super(nombre, medidaTam, fechaCreacion);
     }
 
-    public FicheroBinario(String nombre, double medidaTam, LocalDate fechaCreacion, String[] bytes) {
-        super(nombre, medidaTam, fechaCreacion);
-        this.bytes = bytes;
-    }
+
 
     @Override
     public void mostrarInfoTam() {
@@ -21,6 +18,9 @@ public abstract class FicheroBinario extends Fichero {
 
     @Override
     public void mostrarInfo() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Tamaño: " + medidaTam + " bytes");
+        System.out.println("Fecha de creación: " + fechaCreacion);
 
     }
 

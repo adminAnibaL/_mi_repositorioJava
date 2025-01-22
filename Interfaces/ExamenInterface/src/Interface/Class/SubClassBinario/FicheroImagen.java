@@ -11,7 +11,5 @@ public class FicheroImagen extends FicheroBinario {
         super(nombre, medidaTam, fechaCreacion);
     }
 
-    public FicheroImagen(String nombre, double medidaTam, LocalDate fechaCreacion, String[] bytes) {
-        super(nombre, medidaTam, fechaCreacion, bytes);
-    }
+
 }

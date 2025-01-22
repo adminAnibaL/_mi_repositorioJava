@@ -16,4 +16,7 @@ public abstract  class Fichero implements Contrato {
         this.medidaTam = medidaTam;
         this.fechaCreacion = fechaCreacion;
     }
+
+
+
 }

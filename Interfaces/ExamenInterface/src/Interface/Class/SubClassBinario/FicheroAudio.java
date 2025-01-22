@@ -3,25 +3,26 @@ package Interface.Class.SubClassBinario;
 import Interface.Class.ClassAbstract.FicheroBinario;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+
 
 public class FicheroAudio extends FicheroBinario {
-    private LocalDateTime duracionSegundos;
+    private long duracionSegundos;
     // private String [] contenidoArray;
 
     public FicheroAudio(String nombre, double medidaTam, LocalDate fechaCreacion) {
         super(nombre, medidaTam, fechaCreacion);
     }
 
-    public FicheroAudio(String nombre, double medidaTam, LocalDate fechaCreacion, String[] bytes) {
-        super(nombre, medidaTam, fechaCreacion, bytes);
+    public FicheroAudio(String nombre, double medidaTam, LocalDate fechaCreacion,  long duracionSegundos) {
+        super(nombre, medidaTam, fechaCreacion);
+        this.duracionSegundos = duracionSegundos;
     }
 
 
-// creando los getters
+@Override
+public  void mostrarInfo(){
+        super.mostrarInfo();
+    System.out.println("Duración: " + duracionSegundos + " segundos");
+}
 
-
-    public LocalDateTime getDuracionSegundos() {
-        return duracionSegundos;
-    }
 }
