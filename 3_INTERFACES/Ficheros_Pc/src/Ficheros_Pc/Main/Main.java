@@ -28,7 +28,7 @@ public class Main {
                             {
                                     " Crear Fichero Audio",
                                     " Crear Fichero Video",
-                                    "Salir",
+                                    " Salir",
                             }
             );
 
