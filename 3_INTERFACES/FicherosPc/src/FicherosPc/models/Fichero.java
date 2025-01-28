@@ -21,8 +21,8 @@ public class Fichero implements Informacion {
     public void verTamaño() {
 
 
-        System.out.println("El tamaño del fichero es: " + tamaño);
 
+        System.out.println("El tamaño del fichero es: " + tamaño);
 
     }
 
@@ -37,3 +37,14 @@ public class Fichero implements Informacion {
 
     }
 }
+
+
+/*
+*
+* public long getTamaño(){
+*  long acomulador 0;
+* for
+* acomulador
+*
+* }
+* */

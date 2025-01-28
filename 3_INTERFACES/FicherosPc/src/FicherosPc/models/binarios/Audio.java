@@ -1,10 +1,11 @@
 package FicherosPc.models.binarios;
 
+import FicherosPc.interfaces.Reproducir;
 import FicherosPc.models.Fichero;
 
 import java.time.LocalDate;
 
-public class Audio extends Fichero {
+public class Audio extends Fichero implements Reproducir {
     private byte[] contenido;
     private long duracion;
 
@@ -19,15 +20,19 @@ public class Audio extends Fichero {
 
 
 
- /*   @Override
+   @Override
     public void verTamaño(){
         System.out.println("Fichero Audio su tamaño es:"  );
     }
 
-*/
+
     @Override
     public void verInfo() {
         super.verInfo();
     }
 
+    @Override
+    public void reproducir() {
+
+    }
 }
