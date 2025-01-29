@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Boletin_5_2.iml" filepath="$PROJECT_DIR$/.idea/Boletin_5_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DibujarFormas/DibujarFormas.iml" filepath="$PROJECT_DIR$/DibujarFormas/DibujarFormas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EsportsTournament/EsportsTournament.iml" filepath="$PROJECT_DIR$/EsportsTournament/EsportsTournament.iml" />
+    </modules>
+  </component>
+</project>

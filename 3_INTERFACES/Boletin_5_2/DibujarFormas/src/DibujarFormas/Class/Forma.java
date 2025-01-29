@@ -1,4 +1,9 @@
 package DibujarFormas.Class;
 
-public class Forma {
+public abstract class Forma {
+
+
+
+    public abstract double calcularArea();
+
 }
