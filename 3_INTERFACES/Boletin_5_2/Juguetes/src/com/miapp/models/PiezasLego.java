@@ -1,5 +1,6 @@
 package com.miapp.models;
 
+import com.miapp.abstractmodels.Juguete;
 import com.miapp.abstractmodels.JuguetePlastico;
 import com.miapp.enums.Material;
 import com.miapp.interfaces.Apilable;
@@ -15,7 +16,7 @@ public class PiezasLego extends JuguetePlastico implements Apilable {
     }
 
     @Override
-    public void apliar() {
+    public void apliar(Juguete juguete) {
 
     }
 }

@@ -1,5 +1,6 @@
 package com.miapp.models;
 
+import com.miapp.abstractmodels.Juguete;
 import com.miapp.abstractmodels.JugueteMadera;
 import com.miapp.interfaces.Apilable;
 
@@ -16,8 +17,11 @@ public class FigurasMadera extends JugueteMadera implements Apilable {
         this.numLados = numLados;
     }
 
+
+
     @Override
-    public void apliar() {
+    public void apliar(Juguete juguete) {
+        Apilable.super.apilar(juguete);
 
     }
 }
