@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27d0881f-7e36-43d1-9559-64dffb41cb96" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_home_mi_repositorio_Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Gym/Gym/Class/Actividad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Gym/Gym/Class/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Gym/Gym/Class/Entrenamiento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Gym/Gym/Class/GymException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Gym/Gym/Class/PlanEntrenamiento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/Gym/Gym/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/ReservaCine/ReservaCine/Class/Cine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/ReservaCine/ReservaCine/Class/CineException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/ReservaCine/ReservaCine/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/ArrayRectangulo/Class/ArrayRectangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/ArrayRectangulo/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/CafePro/Class/MaquinaCafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/CafePro/Main/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/CafePro/Utils/CafeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/CafePro/Utils/CafeFunciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/CuentaCorriente/Class/CuentaCorriente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/CuentaCorriente/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/MaquinaCafe/Class/MaquinaCafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/MaquinaCafe/Class/MaquinaCafeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/MaquinaCafe/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/MaquinaCafe/MiEntradaSalida/MiEntradaSalida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/Rectangulo/Class/Rectangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/_home_mi_repositorio_Java/Boletin_4_1/Rectangulo/Main/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2sG0VIEhGMJCjBHVeSpGaX7qFEN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/Mi unidad/3_RoomClass_mi_repositorio_Java/3_INTERFACES/PcFicheros",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27d0881f-7e36-43d1-9559-64dffb41cb96" name="Changes" comment="" />
+      <created>1738066626988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738066626988</updated>
+      <workItem from="1738066628313" duration="65000" />
+      <workItem from="1738066703533" duration="20000" />
+      <workItem from="1738066732179" duration="661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
