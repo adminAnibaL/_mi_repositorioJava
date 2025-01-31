@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdb3156b-819a-4a9b-8a93-c0e073a7e0d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Boletin_4/Boletin_4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/ExamenInterface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/ClassAbstract/Fichero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/ClassAbstract/FicheroBinario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/ClassAbstract/FicheroTexto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/SubClassBinario/FicheroAudio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/SubClassBinario/FicheroEjecutable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/SubClassBinario/FicheroImagen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/SubClassBinario/FicheroVideo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/SubClassText/FicheroTextoFormateado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Class/SubClassText/FicheroTextoPlano.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Interface/Contrato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Utils/ConsoleInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/ExamenInterface/src/Interface/Utils/FicheroException.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3_INTERFACES/Inmobiliario/src/Inmueble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/Inmobiliario/src/Inmobiliaria/ClassAbstract/Inmueble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/Inmobiliario/src/Inmobiliaria/ClassAbstract/InmuebleVivienda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/Inmobiliario/src/Inmobiliaria/SubClass/Apartamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/Inmobiliario/src/Inmobiliaria/SubClass/Casa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/Inmobiliario/src/Inmobiliaria/SubClass/Habitacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_INTERFACES/Inmobiliario/src/Inmobiliaria/SubClass/Local.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +18,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "adminAnibaL"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adminAnibaL&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2s50TuRO5xiOuGdTjUk61ZxQsnf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,14 +34,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "G:/Mi unidad/2_HOME_mi_repositorio_Java/1_OBJETOS",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +61,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737730139865</updated>
+      <workItem from="1738172830546" duration="48000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

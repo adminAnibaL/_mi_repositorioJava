@@ -19,8 +19,8 @@ public class Canvas {
         Linea linea = new Linea();
         CirculoMovible circuloMovible = new CirculoMovible();
 
-        //
-        Forma[] formas = {triangulo, circulo, linea, circuloMovible};
+
+//        Forma[] formas = {triangulo, circulo, linea, circuloMovible};
 
 
     }
